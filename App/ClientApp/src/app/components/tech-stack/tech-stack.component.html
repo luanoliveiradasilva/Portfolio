@@ -1,0 +1,9 @@
+<section>
+    <h1>My Tech Stack</h1>
+    <p>Technologies I’ve been working with recently</p>
+    <div class="image-container">
+        <figure *ngFor="let pathImages of pathImage"><img [src]="'assets/images/' + pathImages" [alt]="pathImages"
+                class="image" />
+        </figure>
+    </div>
+</section>

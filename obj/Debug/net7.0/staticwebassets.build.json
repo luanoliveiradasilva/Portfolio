@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "CYerHAdCFHAui1l3o5bAG3mMcTUngW8GT5UlaSdYtL8=",
+  "Source": "App",
+  "BasePath": "_content/App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "App\\wwwroot",
+      "Source": "App",
+      "ContentRoot": "d:\\Documents\\Projetos\\Portfolio\\App\\wwwroot\\",
+      "BasePath": "_content/App",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "d:\\Documents\\Projetos\\Portfolio\\App\\wwwroot\\favicon.ico",
+      "SourceId": "App",
+      "SourceType": "Discovered",
+      "ContentRoot": "d:\\Documents\\Projetos\\Portfolio\\App\\wwwroot\\",
+      "BasePath": "_content/App",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

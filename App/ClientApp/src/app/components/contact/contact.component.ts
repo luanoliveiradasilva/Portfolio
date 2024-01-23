@@ -30,8 +30,6 @@ export class ContactComponent {
       mensage: this.mensage
     };
 
-    console.log
-
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
     const teste = this.http.post(`${this.apiURL}`, data,
       {

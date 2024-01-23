@@ -1,7 +1,16 @@
-div {
-    border-bottom: solid #6666661f 2px;
-    height: 100px;
-}
+div::before {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+	
+  }
+
+  div {
+    display: inline-block;
+  
+  }
 
 h1 {
     color: #42446E;
@@ -14,19 +23,47 @@ h2 {
     color: #42446E;
     font-size: 42px;
     font-weight: bold;
-    margin-top: 2.37rem;
+    margin-top: 3rem;
 }
 
-h3 {
+.ExperenceGroup{
+    margin-top: 2rem;
+    border-bottom: solid #6666661f 2px;
+}
+
+.h3 {
     color: #666666;
     font-size: 18px;
+    font-weight: bold;
 }
 
-span {
+span{
+    margin-left: 0.5rem;
+}
+
+.company{
+    width: 17rem;
+    height: 2rem;
     margin-right: 16rem;
+    margin-top: 0.5rem;
+}
+
+.countrie{
+    width: 17rem;
+    height: 2rem;
+    margin-right: 15rem;
+}
+
+.dataExperence{
+    width: 12rem;
+    height: 2rem;
 }
 
 .about{
     margin-top: 12rem;
     margin-bottom: 12rem;
+}
+
+p{
+    margin-top: 3rem; 
 }

@@ -11,6 +11,7 @@ import { TechStackComponent } from './tech-stack/tech-stack.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HomeComponent } from './home/home.component';
     TechStackComponent,
     ProjectsComponent,
     ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -32,6 +34,7 @@ import { HomeComponent } from './home/home.component';
       { path: 'tech-stack', component: TechStackComponent },
       { path: 'projects', component: ProjectsComponent },
       { path: 'contact', component: ContactComponent },
+      { path: 'footer', component: FooterComponent },
     ], {
       useHash: true,
       anchorScrolling: 'enabled'

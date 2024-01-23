@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent {
 
-  pathImage: string;
+  pathImage: string[] = [];
 
+ 
   constructor() {
-    this.pathImage = '../assets/images/1533563262507.jpeg';
+    this.pathImage.push(
+      '1533563262507.jpeg');
   }
 }

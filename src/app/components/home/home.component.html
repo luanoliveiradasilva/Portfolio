@@ -7,7 +7,7 @@
         </h1>
     </div>
     <div>
-        <figure><img [src]="pathImage" /></figure>
+        <figure *ngFor="let pathImages of pathImage"><img [src]="'assets/images/' + pathImages" [alt]="pathImages"/></figure>
     </div>
 </section>
 <section id="about" class="marginTop"><app-about></app-about></section>

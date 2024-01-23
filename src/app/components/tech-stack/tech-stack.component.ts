@@ -23,8 +23,4 @@ export class TechStackComponent {
       'aws.svg',      
       'docker.svg');
   }
-
-  //TODO retornar para adicionar via encapsulamento e ou injecao de dependencia.
-  //TODO ajustar para que os nomes dos arquivos não fiquem na mesma pasta.
-
 }

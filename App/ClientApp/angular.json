@@ -137,7 +137,7 @@
       "style": "scss"
     }
   },
-  "defaultProject": "App",
+  "defaultProject": "main",
   "cli": {
     "analytics": "be41a8c1-6285-4bef-bb6d-df34595a88ce"
   }

@@ -32,7 +32,7 @@ import { FooterComponent } from './footer/footer.component';
       { path: 'about', component: AboutComponent },
       { path: 'tech-stack', component: TechStackComponent },
       { path: 'projects', component: ProjectsComponent },
-      { path: 'contact', component: ContactComponent },
+      { path: 'contact', component: ContactComponent }
     ], {
       useHash: true,
       anchorScrolling: 'enabled'

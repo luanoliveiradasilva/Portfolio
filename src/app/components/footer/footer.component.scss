@@ -1,4 +1,21 @@
 footer {
-    background-color: #eee;
-    padding: 10px;
+    box-shadow: 0 .25rem .75rem rgba(.05, 0, 0, .05);
+    text-align: right;
+    word-break: break-all;
+    white-space: normal;
+}
+
+.lineSeparate {
+    border-top: 2px solid rgba(150, 149, 149, 0.301);
+    padding-right: 5rem;
+}
+
+.mediaSocial {
+    margin-left: 0.5em;
+    color: gray;
+    padding-right: 0.5rem;
+}
+
+.nameData { 
+    padding-right: 5rem;
 }

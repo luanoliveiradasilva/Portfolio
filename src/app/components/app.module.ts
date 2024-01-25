@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { AboutComponent } from './about/about.component';
@@ -34,7 +33,6 @@ import { FooterComponent } from './footer/footer.component';
       { path: 'tech-stack', component: TechStackComponent },
       { path: 'projects', component: ProjectsComponent },
       { path: 'contact', component: ContactComponent },
-      { path: 'footer', component: FooterComponent },
     ], {
       useHash: true,
       anchorScrolling: 'enabled'

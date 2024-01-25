@@ -22,6 +22,10 @@ p {
     text-align: center;
 }
 
+figure {
+    margin: 0rem;
+}
+
 .textCard {
     padding: 0.5rem;
     margin-top: 1.06rem;
@@ -40,6 +44,7 @@ p {
     }
 
     .img{
+        width: 20.7em;
         border-radius: 10px 10px 0px 0px; 
     }
 }

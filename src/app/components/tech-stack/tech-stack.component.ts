@@ -14,9 +14,7 @@ export class TechStackComponent {
       'java.svg', 
       'kotlin.svg', 
       'csharp.svg',
-      'spring.svg',              
-      'aws.svg',      
-      'docker.svg',
+      'spring.svg',                 
       'unitylogo.png');
   }
 }

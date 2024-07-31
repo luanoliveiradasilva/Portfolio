@@ -1,0 +1,61 @@
+{
+    "menu": [
+        {
+            "name": "Home",
+            "link": "/"
+        },
+        {
+            "name": "About",
+            "link": "/About"
+        },
+        {
+            "name": "Skills",
+            "link": "/Skills"
+        },
+        {
+            "name": "Projects",
+            "link": "/Projects"
+        },
+        {
+            "name": "Contactme",
+            "link": "/Contactme"
+        }
+    ],
+    "icons": [
+        {
+            "iconName": "devicon_java.svg"
+        },
+        {
+            "iconName": "devicon_kotlin.svg"
+        },
+        {
+            "iconName": "devicon_csharp.svg"
+        },
+        {
+            "iconName": "devicon_spring.svg"
+        },
+        {
+            "iconName": "skill-icons_javascript.svg"
+        },
+        {
+            "iconName": "skill-icons_react-dark.svg"
+        },
+        {
+            "iconName": "skill-icons_tailwindcss-dark.svg"
+        },
+        {
+            "iconName": "devicon_unity.svg"
+        }
+    ],
+    "projects": [
+        {
+            "projectName": "watcher.svg"
+        },
+        {
+            "projectName": "TC 1.svg"
+        },
+        {
+            "projectName": "transferir 1.svg"
+        }
+    ]
+}

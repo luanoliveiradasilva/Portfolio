@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'PoetsenOne-Regular';
+        src: url('/assets/fonts/PoetsenOne-Regular.ttf')
+    }
+
+    @font-face {
+        font-family: 'Rancho-Regular';
+        src: url('/assets/fonts/Rancho-Regular.ttf')
+    }
+}
+
+@layer utilities {
+    .shadow-custom {
+        box-shadow: 
+        0 4px 15px -6px rgba(0, 0, 0, 0.3),
+        0 4px 25px -6px rgba(0, 0, 0, 0.3);
+    }
+}

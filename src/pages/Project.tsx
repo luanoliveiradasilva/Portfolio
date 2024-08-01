@@ -1,11 +1,8 @@
 import ArrowUp from '/assets/icons/Arrow Up.svg';
 import ArrowDown from '/assets/icons/Arrow Down.svg';
-import menuData from '../assets/data/menu.json';
-
+import loadIcons from "../utils/laodIcons";
 
 const Project = () => {
-
-  const projectPath = '/assets/img/projects/';
 
   return (
     <>
@@ -17,8 +14,8 @@ const Project = () => {
           </p>
 
           <div className="flex flex-wrap justify-center pt-20 px-32">
-            {menuData.projects.map(item =>
-              <img key={item.projectName} src={projectPath + item.projectName} />
+            {loadIcons.projects.map(item =>
+              <img key={item} src={item} />
             )}
           </div>
         </div>

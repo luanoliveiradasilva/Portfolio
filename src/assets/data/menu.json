@@ -20,16 +20,5 @@
             "name": "Contactme",
             "link": "/Contactme"
         }
-    ],
-    "projects": [
-        {
-            "projectName": "watcher.svg"
-        },
-        {
-            "projectName": "TC 1.svg"
-        },
-        {
-            "projectName": "transferir 1.svg"
-        }
     ]
 }

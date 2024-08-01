@@ -1,6 +1,5 @@
 import ArrowUp from '/assets/icons/Arrow Up.svg';
 import ArrowDown from '/assets/icons/Arrow Down.svg';
-/* import menuData from '../assets/data/menu.json'; */
 import loadIcons from "../utils/laodIcons";
 
 const Skill = () => {
@@ -16,11 +15,7 @@ const Skill = () => {
           </p>
 
           <div className="flex flex-wrap justify-center pt-20 gap-16 px-32">
-            {/* {menuData.icons.map(item =>
-              <img key={item.iconName} src={item} />
-            )} */}
-
-            {loadIcons.map(item =>
+            {loadIcons.tech.map(item =>
               <img key={item} src={item} />
             )}
 

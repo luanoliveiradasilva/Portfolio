@@ -670,6 +670,22 @@ video {
   width: 100%;
 }
 
+@keyframes appear {
+  0% {
+    opacity: 0;
+    scale: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.animate-appear {
+  animation: appear 1s linear;
+}
+
 .cursor-pointer {
   cursor: url(/assets/icons/Cursor.svg), pointer;
 }
@@ -896,9 +912,14 @@ video {
 }
 
 .shadow-custom {
-  box-shadow: 
-        0 4px 15px -6px rgba(0, 0, 0, 0.3),
-        0 4px 25px -6px rgba(0, 0, 0, 0.3);
+  box-shadow:
+            0 4px 15px -6px rgba(0, 0, 0, 0.3),
+            0 4px 25px -6px rgba(0, 0, 0, 0.3);
+}
+
+.animPage {
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
 
 .hover\:text-purple:hover {

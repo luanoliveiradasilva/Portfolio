@@ -7,10 +7,6 @@ import iconTech5 from "/assets/icons/techs/skill-icons_react-dark.svg";
 import iconTech6 from "/assets/icons/techs/skill-icons_tailwindcss-dark.svg";
 import iconTech7 from "/assets/icons/techs/devicon_unity.svg";
 
-import iconProject from "/assets/img/projects/TC 1.svg";
-import iconProject1 from "/assets/img/projects/transferir 1.svg";
-import iconProject2 from "/assets/img/projects/watcher.svg";
-
 const iconsTech = [
     iconTech,
     iconTech1,
@@ -22,15 +18,8 @@ const iconsTech = [
     iconTech7
 ];
 
-const iconsProjects = [
-    iconProject,
-    iconProject1,
-    iconProject2
-];
-
 const icons = {
-    tech: iconsTech,
-    projects: iconsProjects
+    tech: iconsTech
 };
 
 export default icons;

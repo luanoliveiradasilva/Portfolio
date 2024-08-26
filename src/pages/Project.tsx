@@ -16,7 +16,7 @@ const Project = () => {
     },
     {
       image: challenger,
-      gitLink: '',
+      gitLink: 'https://github.com/luanoliveiradasilva/UnityChallengeRun/tree/main',
       itchLink: '',
       unityLink: 'https://play.unity.com/pt/games/44854b48-ec14-4458-a1a4-e2a09daed367/unity-mini-challenge'
     },
@@ -44,7 +44,7 @@ const Project = () => {
                   <img src={project.image} alt={`Image ${index}`} className="w-full h-full object-cover" />
 
                   <div className="absolute inset-0 flex justify-center items-center transition-opacity duration-500 opacity-0 hover:opacity-100 bg-gray-800 bg-opacity-80">
-                    <div className="text-white text-center p-4 flex flex-col justify-center items-center h-full w-full border-2 border-green-500">
+                    <div className="text-white text-center p-4 flex flex-col justify-center items-center h-full w-full">
                       <a
                         href={project.gitLink === '' ? '' : project.gitLink}
                         target='_blank' className="block mb-2 text-lg font-semibold hover:text-gray-200 cursor-pointer"

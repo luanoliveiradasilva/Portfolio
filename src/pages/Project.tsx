@@ -40,7 +40,7 @@ const Project = () => {
 
             <div className="flex flex-wrap justify-center pt-20 px-32 gap-4">
               {projects.map((project, index) => (
-                <div key={index} className="relative w-80 h-80 transition duration-500 hover:scale-105 flex justify-center items-center">
+                <div key={index} className="relative 2xl:w-72  h-80 transition duration-500 hover:scale-105 flex justify-center items-center">
                   <img src={project.image} alt={`Image ${index}`} className="w-full h-full object-cover" />
 
                   <div className="absolute inset-0 flex justify-center items-center transition-opacity duration-500 opacity-0 hover:opacity-100 bg-gray-800 bg-opacity-80">

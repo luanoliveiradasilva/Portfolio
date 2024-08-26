@@ -1,7 +1,7 @@
 import ArrowUp from '/assets/icons/Arrow Up.svg';
 import ArrowDown from '/assets/icons/Arrow Down.svg';
 import Tc from "/assets/img/projects/TC 1.svg";
-import challenger from "/assets/img/projects/transferir 1.svg";
+import challenger from "/assets/img/projects/challenger.svg";
 import watcher from "/assets/img/projects/watcher.svg";
 
 

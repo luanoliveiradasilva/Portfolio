@@ -20,9 +20,7 @@ const About = () => {
           </div>
 
           <div className="w-auto pl-64 pt-11 text-sm text-justify">
-            <p>I have a degree in Systems Analysis and Development from Estácio de Sá, an MBA in Software Engineering from Impacta in Brazil
-              and am currently studying Digital Games Development at the Polytechnic Institute of Maia in Portugal. I have a strong interest in
-              technology and finding new, simple solutions that increase productivity and have a positive impact on people.
+            <p>I have a degree in Systems Analysis and Development from Estácio de Sá, an MBA in Software Engineering from Impacta, in Brazil, and a Professional Technical Course in Digital Games Development at the Polytechnic Institute of Maia, in Portugal. I have a keen interest in technology and in finding new and simple solutions that increase productivity and have a positive impact on people.
             </p>
           </div>
 
@@ -42,7 +40,7 @@ const About = () => {
                 </span>
                 <span className='justify-start flex items-center gap-1 pr-4'>
                   <img src={Calendar} alt="Mask Group" className='w-3 h-3' />
-                  02/2024 - 06/2024
+                  02/2024 - 07/2024
                 </span>
                 <span className='w-full'>Lusoinfo II Multimédia S.A</span>
               </div>
